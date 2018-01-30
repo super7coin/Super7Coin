@@ -137,13 +137,13 @@ public:
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1516997564, 1002480, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517354519, 41820, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000050bd9068d0cb20fad1fae3f56ac8c1a895b0a9b09869e3bf4db8a0bb9f1"));
-        assert(genesis.hashMerkleRoot == uint256S("0xed1884492c0161ce8ec04403401f6eb17af67bc8bd6af337a0d2348087dd68e9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000007164b70f23e2664c6251d80141817ff10029370b894ef5ccad97980dc"));
+        assert(genesis.hashMerkleRoot == uint256S("0xbbbc6cb9d7224202162da10b68ba883c9ceb5198497605ee8ec07fe95c979fe0"));
 
-        vSeeds.push_back(CDNSSeedData("46.101.129.204", "46.101.129.204"));
-        vSeeds.push_back(CDNSSeedData("165.227.129.12", "165.227.129.12"));
+        vSeeds.push_back(CDNSSeedData("n1", "178.62.22.4"));
+        vSeeds.push_back(CDNSSeedData("n2", "138.68.152.31"));
 
        //vSeeds.push_back(CDNSSeedData("n1.super7node.org", "n1.super7node.org"));
        //vSeeds.push_back(CDNSSeedData("n2.super7node.org", "n2.super7node.org"));
@@ -261,10 +261,10 @@ public:
 
 
 
-        genesis = CreateGenesisBlock(1516997564, 1002480, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517354519, 41820, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000050bd9068d0cb20fad1fae3f56ac8c1a895b0a9b09869e3bf4db8a0bb9f1"));
-        assert(genesis.hashMerkleRoot == uint256S("0xed1884492c0161ce8ec04403401f6eb17af67bc8bd6af337a0d2348087dd68e9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000007164b70f23e2664c6251d80141817ff10029370b894ef5ccad97980dc"));
+        assert(genesis.hashMerkleRoot == uint256S("0xbbbc6cb9d7224202162da10b68ba883c9ceb5198497605ee8ec07fe95c979fe0"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -373,10 +373,10 @@ public:
 
 
 
-        genesis = CreateGenesisBlock(1516997564, 1002480, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517354519, 41820, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000050bd9068d0cb20fad1fae3f56ac8c1a895b0a9b09869e3bf4db8a0bb9f1"));
-        assert(genesis.hashMerkleRoot == uint256S("0xed1884492c0161ce8ec04403401f6eb17af67bc8bd6af337a0d2348087dd68e9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000007164b70f23e2664c6251d80141817ff10029370b894ef5ccad97980dc"));
+        assert(genesis.hashMerkleRoot == uint256S("0xbbbc6cb9d7224202162da10b68ba883c9ceb5198497605ee8ec07fe95c979fe0"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
