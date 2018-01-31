@@ -142,8 +142,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000007164b70f23e2664c6251d80141817ff10029370b894ef5ccad97980dc"));
         assert(genesis.hashMerkleRoot == uint256S("0xbbbc6cb9d7224202162da10b68ba883c9ceb5198497605ee8ec07fe95c979fe0"));
 
-        vSeeds.push_back(CDNSSeedData("n1", "178.62.22.4"));
-        vSeeds.push_back(CDNSSeedData("n2", "138.68.152.31"));
+        vSeeds.push_back(CDNSSeedData("178.62.22.4", "178.62.22.4"));
+        vSeeds.push_back(CDNSSeedData("138.68.152.31", "138.68.152.31"));
 
        //vSeeds.push_back(CDNSSeedData("n1.super7node.org", "n1.super7node.org"));
        //vSeeds.push_back(CDNSSeedData("n2.super7node.org", "n2.super7node.org"));
